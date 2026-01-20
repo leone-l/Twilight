@@ -1,0 +1,12 @@
+{
+    "name": "Python",
+    "description": "一种广泛使用的高级编程语言，因其简洁易读的语法而闻名。",
+    "icon": "logos:svelte-icon",
+    "category": "编程语言",
+    "level": "advanced",
+    "experience": {
+        "years": 2,
+        "months": 0
+    },
+    "color": "#FF3E00"
+}

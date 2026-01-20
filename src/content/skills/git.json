@@ -1,12 +1,12 @@
 {
     "name": "Git",
-    "description": "A distributed version control system.",
+    "description": "一个分布式版本控制系统。",
     "icon": "logos:git-icon",
-    "category": "tools",
-    "level": "advanced",
+    "category": "工具",
+    "level": "beginner",
     "experience": {
-        "years": 3,
-        "months": 0
+        "years": 0,
+        "months": 5
     },
     "color": "#F05032"
 }

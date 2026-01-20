@@ -16,7 +16,7 @@ import { LinkPreset } from "./types/config";
  */
 
 // 设置浏览器语言 ('zh', 'en', ...)
-const SITE_LANG = "en";
+const SITE_LANG = "zh";
 
 // 设置网站时区 (from -12 to 12)
 const SITE_TIMEZONE = 8; // UTC+8
@@ -25,11 +25,11 @@ const SITE_TIMEZONE = 8; // UTC+8
 // 站点配置
 export const siteConfig: SiteConfig = {
     // 站点 URL（以斜杠结尾）
-    siteURL: "https://twilight.spr-aachen.com/", // 请替换为你的站点 URL 并以斜杠结尾
+    siteURL: "http://blog.leoio.cn/", // 请替换为你的站点 URL 并以斜杠结尾
     // 站点标题
-    title: "Twilight",
+    title: "基石",
     // 站点副标题
-    subtitle: "Blog Template",
+    subtitle: "Foundation",
     // 语言配置
     lang: SITE_LANG, // 自动检测的浏览器语言
     // 翻译配置
@@ -104,10 +104,10 @@ export const siteConfig: SiteConfig = {
                 // 在主页显示文本
                 enable: true,
                 // 主标题
-                title: "Twilight",
+                title: "基石",
                 // 副标题，支持单个字符串或字符串数组
                 subtitle: [
-                    "Illuminate Our Paths",
+                    "To climb the ladder, start at the bottom.",
                 ],
                 // 副标题打字机效果
                 typewriter: {
@@ -184,7 +184,7 @@ export const siteConfig: SiteConfig = {
     // bangumi 配置
     bangumi: {
         // 用户 ID
-        userId: "your-bangumi-id", // 可以设置为 "sai" 测试
+        userId: "sai", // 可以设置为 "sai" 测试
     },
     // OpenGraph 配置
     generateOgImages: false, // 注意开启图片生成后要渲染很长时间，不建议本地调试的时候开启
@@ -201,7 +201,7 @@ export const navBarConfig: NavBarConfig = {
         LinkPreset.Home,
         LinkPreset.Archive,
         {
-            name: "Exhibition",
+            name: "历程",
             url: "/exhibition/",
             icon: "material-symbols:person",
             description: "A collection of my creative works and experiences",
@@ -348,7 +348,7 @@ export const profileConfig: ProfileConfig = {
     // 头像配置 (相对于 /public 目录)
     avatar: "/assets/images/avatar.jpg",
     // 信息配置
-    name: "Twilight",
+    name: "Leone",
     // 简介配置
     bio: "Hi",
     // 链接配置
@@ -356,7 +356,7 @@ export const profileConfig: ProfileConfig = {
         {
             name: "GitHub",
             icon: "fa6-brands:github",
-            url: "https://github.com/Spr-Aachen/Twilight",
+            url: "https://github.com/leone-l/",
         },
     ],
 };
@@ -365,9 +365,9 @@ export const profileConfig: ProfileConfig = {
 // 公告配置
 export const announcementConfig: AnnouncementConfig = {
     // 公告标题
-    title: "Announcement",
+    title: "公告",
     // 公告内容
-    content: "Welcome to my blog!",
+    content: "欢迎来到我的博客!",
     // 允许用户关闭公告
     closable: true,
     // 链接配置
@@ -375,7 +375,7 @@ export const announcementConfig: AnnouncementConfig = {
         // 启用链接
         enable: true,
         // 链接文本
-        text: "Learn More",
+        text: "了解更多……",
         // 链接 URL
         url: "/about/",
         // 是否外部链接
@@ -392,7 +392,7 @@ export const postConfig: PostConfig = {
     // 显示“上次编辑”卡片
     showLastModified: true,
     // 在文章内容中显示封面
-    showCoverInContent: false,
+    showCoverInContent: true,
     // 代码高亮配置
     expressiveCode: {
         // 主题
@@ -410,7 +410,7 @@ export const postConfig: PostConfig = {
     // 评论配置
     comment: {
         // 启用评论功能
-        enable: false,
+        enable: true,
         // Twikoo 评论系统配置
         twikoo: {
             // 环境 ID

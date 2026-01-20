@@ -1,15 +1,13 @@
----
+# 友链申请
 
-## How to Apply
+请将你的网站信息发送至：3277512425@qq.com
 
-Please send your website information to: xxx@xxx.com
-
-Email Subject:
+邮件主题：
 ```
 Request to Add Friend
 ```
 
-Email Content (Template):
+邮件内容（模板）：
 ```
 Site Name: [Your Site Name]
 Site Desc: [Your Site Description]
